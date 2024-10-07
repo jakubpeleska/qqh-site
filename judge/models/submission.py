@@ -92,7 +92,7 @@ class Submission(models.Model):
     @classmethod
     def result_class_from_code(cls, result, case_points, case_total):
         if result == 'AC':
-            if case_points == case_total:
+            if case_points >= case_total:
                 return 'AC'
             return '_AC'
         return result

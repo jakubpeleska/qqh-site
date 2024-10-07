@@ -104,6 +104,6 @@ class BaseContestFormat(metaclass=ABCMeta):
     def best_solution_state(cls, points, total):
         if not points:
             return 'failed-score'
-        if points == total:
+        if points >= total:
             return 'full-score'
         return 'partial-score'
