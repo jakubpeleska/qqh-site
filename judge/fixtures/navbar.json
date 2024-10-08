@@ -65,34 +65,18 @@
     },
     {
         "fields": {
-            "key": "about",
-            "label": "About",
+            "key": "status",
+            "label": "Status",
             "level": 0,
             "lft": 1,
             "order": 6,
             "parent": null,
-            "path": "/about/",
-            "regex": "^/about/$",
+            "path": "/status/",
+            "regex": "^/status/$|^/judge/",
             "rght": 4,
             "tree_id": 5
         },
         "model": "judge.navigationbar",
         "pk": 6
-    },
-    {
-        "fields": {
-            "key": "status",
-            "label": "Status",
-            "level": 1,
-            "lft": 2,
-            "order": 7,
-            "parent": 6,
-            "path": "/status/",
-            "regex": "^/status/$|^/judge/",
-            "rght": 3,
-            "tree_id": 5
-        },
-        "model": "judge.navigationbar",
-        "pk": 7
     }
 ]
