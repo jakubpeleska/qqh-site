@@ -16,7 +16,7 @@
         color: #5c5954;
 
         a {
-            color: #FFF;
+            color: $white-smoke;
         }
     }
 
@@ -66,7 +66,7 @@
 }
 
 #nav-container {
-    background: #3b3b3b;
+    background: #000060;
 
     // opacity: 0.77
     // filter: alpha(opacity=77)
@@ -87,7 +87,7 @@ nav {
 
         li {
             display: inline-block;
-            color: #FFF;
+            color: $white-smoke;
             text-transform: uppercase;
             position: relative;
 
@@ -106,23 +106,23 @@ nav {
                 display: inline-block;
                 text-decoration: none;
                 vertical-align: middle;
-                color: #FFF;
+                color: $white-smoke;
                 padding: 13px 7px;
                 height: 18px;
 
                 &:link {
-                    color: #FFF;
+                    color: $white-smoke;
                 }
 
                 &:hover {
-                    color: #FFF;
+                    color: $white-smoke;
                     background: rgba(255, 255, 255, 0.25);
                     margin: 0;
                 }
 
                 &.active {
-                    color: #FFF;
-                    background: $highlight_blue;
+                    color: $white-smoke;
+                    background: $qminers_red;
                 }
 
                 .nav-expand {
@@ -136,14 +136,14 @@ nav {
                 left: 5px;
                 display: none;
                 color: #fff;
-                background: #3b3b3b;
+                background: $qminers-blue;
                 margin: 0 !important;
                 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 
                 li {
                     &:first-child {
                         a.active {
-                            border-top: 1px solid #3b3b3b;
+                            border-top: 1px solid $qminers-blue;
                         }
                     }
                 }
@@ -156,7 +156,7 @@ nav {
                         font-size: 0.8em;
                         line-height: 18px;
                         display: block;
-                        border-left: 4px solid $highlight_blue;
+                        border-left: 4px solid $qminers_red;
                         white-space: nowrap;
                     }
                 }
@@ -209,7 +209,7 @@ nav {
         display: block;
         line-height: 26px;
         font-size: 2em;
-        color: #FFF;
+        color: $white-smoke;
         padding: 0 0.25em;
         margin: 4px 0.25em;
         white-space: nowrap;
@@ -217,7 +217,7 @@ nav {
 
         &.hover {
             color: #4db7fe;
-            text-shadow: 0 0 5px $highlight_blue;
+            text-shadow: 0 0 5px $qminers_red;
             transition-duration: 0.25s;
         }
     }
@@ -228,7 +228,7 @@ nav {
         margin: 0;
         position: fixed;
         top: 36px;
-        background: #3b3b3b;
+        background: $qminers-blue;
         bottom: 0;
         width: 8em;
         left: 0;
