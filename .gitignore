@@ -17,4 +17,5 @@ sass_processed
 uwsgi.ini
 judge/fixtures/init.json
 judge/fixtures/judges.json
+judge/fixtures/users.json
 websocket/config.js
