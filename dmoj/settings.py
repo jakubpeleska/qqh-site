@@ -60,9 +60,9 @@ DMOJ_CAMO_EXCLUDE = ()
 DMOJ_PROBLEM_DATA_ROOT = None
 
 DMOJ_PROBLEM_MIN_TIME_LIMIT = 0  # seconds
-DMOJ_PROBLEM_MAX_TIME_LIMIT = 60  # seconds
+DMOJ_PROBLEM_MAX_TIME_LIMIT = 300  # seconds
 DMOJ_PROBLEM_MIN_MEMORY_LIMIT = 0  # kilobytes
-DMOJ_PROBLEM_MAX_MEMORY_LIMIT = 1048576  # kilobytes
+DMOJ_PROBLEM_MAX_MEMORY_LIMIT = 1048576 * 5 # kilobytes
 DMOJ_PROBLEM_MIN_PROBLEM_POINTS = 0
 DMOJ_PROBLEM_MIN_USER_POINTS_VOTE = 1  # when voting on problem, minimum point value user can select
 DMOJ_PROBLEM_MAX_USER_POINTS_VOTE = 50  # when voting on problem, maximum point value user can select
